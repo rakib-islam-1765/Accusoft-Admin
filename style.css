@@ -415,8 +415,11 @@ tr td:last-child {
   }
 }
 
-@media only screen and (max-wiidth: 768px) {
+@media only screen and (max-wiidth: 560px) {
   .cards {
     grid-template-columns: repeat(100%);
+  }
+  .main-content {
+    width: 100%;
   }
 }
