@@ -415,7 +415,7 @@ tr td:last-child {
   }
 }
 
-@media only screen and (max-wiidth: 560px) {
+@media only screen and (max-wiidth: 768px) {
   .cards {
     grid-template-columns: repeat(100%);
   }
